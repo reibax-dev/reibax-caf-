@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    <header class="header header-nosotros">
+        <div class="contenido-header">
+            <div class="barra">
+                <div class="logo">
+                    <img src="build/img/logo.svg" alt="logo">
+                </div>      <!-- logo -->
+                    <nav class="nav-principal">
+                        <a href="index.html">Inicio</a>
+                        <a class="activo" href="nosotros.html">Nosotros</a>
+                        <a href="proceso.html">Proceso</a>
+                        <a href="menu.html">Menú</a>
+                        <a href="galeria.html">Galería</a>
+                        <a href="contacto.html">Contacto</a>                       
+                    </nav>
+            </div>      <!-- barra -->    
+
+                <div class="texto-header">
+                    <h1>Una nueva experiencia cada día</h1>
+                </div>      <!-- texto-header -->            
+        </div>      <!-- contenido-header -->        
+    </header>
+
+    <main class="contenedor contenido-principal text-center">
+        <h2><span>conoce más</span>sobre nosotros</h2>
+
+        <div class="contenido-nosotros">
+            <div class="imagen">
+                <picture>
+                    <source
+                         
+                        srcset="build/img/nosotros_sidebar.avif" 
+                        type="image/avif">
+                    <source
+                         
+                        srcset="build/img/nosotros_sidebar.webp"
+                        type="image/webp">
+                    <source
+                         
+                        srcset="build/img/nosotros_sidebar.jpeg"
+                        type="image/jpeg">
+                    <img loading="lazy" decoding="async" src="build/img/nosotros_sidebar.jpeg" lazyalt="imagen" width="500" height="300">
+                </picture>
+            </div>
+            <div class="texto">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, dignissimos dolores possimus omnis blanditiis magni inventore pariatur vitae ea ut nulla aperiam nisi incidunt error rerum repellendus aliquid voluptas nemo!</p>
+
+                <blockquote>Excelente sabor !</blockquote>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam repellendus ad impedit quisquam corporis adipisci ab, ea veniam porro nam eius veritatis officiis! Soluta dicta minima exercitationem eum asperiores maiores.</p>
+
+            </div>
+
+        </div>
+
+    </main>
+
+        <footer class="footer">
+            <div class="contenedor contenido-footer bg-blanco">
+                <div class="footer-box ubicacion">
+                    <h3>Ubicación</h3>
+                    <p>Talat Phlu 666</p>
+                    <p>Bangkok, Thailand</p>
+
+                </div>
+                <div class="footer-box reservas">
+                    <h3>Reservas</h3>
+                    <p>Tel. 696-877467</p>
+                    <a href="tel:+696877467">Teléfono</a>
+
+                </div>
+                <div class="footer-box horario">
+                    <h3>Horario</h3>
+                    <p>Lunes-Jueves: 11:00 - 22:00</p>
+                    <p>Viernes-Sabado: 09:00 - 24:00 </p>
+                    <p>Domingo: Cerrado</p>
+                </div>
+
+            </div>
+                <p class="copyrigth">Todos los derechos reservados. Reibax &copy;</p>
+        </footer>
+
+
+</body>
+</html>
